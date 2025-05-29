@@ -135,6 +135,7 @@ h1, h2, h3 {
 
 h1 {
   font-size: 130%;
+  padding-top:1rem
 }
 h2 {
   font-size: 115%;
@@ -454,4 +455,104 @@ sub {
 
 sup {
   font-size: 70%;
+}
+
+
+/* Dark Mode styles */
+
+body.dark-mode {
+  background-color: #121212;
+  color: #e0e0e0;
+}
+
+body.dark-mode a,
+body.dark-mode a:visited,
+body.dark-mode a:active {
+  color: #7ab8f0;
+}
+
+body.dark-mode a:hover {
+  text-decoration: underline;
+  color: #a2d0ff;
+}
+
+body.dark-mode nav a,
+body.dark-mode nav button {
+  color: #aaa !important;
+}
+
+body.dark-mode .popup {
+  background: #1e1e1e;
+  color: #e0e0e0;
+  border: 1px solid #4ab;
+  outline: 1000px solid #1e1e1ebb;
+}
+
+body.dark-mode pre,
+body.dark-mode code,
+body.dark-mode .cm-editor .cm-content,
+body.dark-mode .cm-editor {
+  color: #e0e0e0;
+  background-color: #1e1e1e;
+}
+
+body.dark-mode .sandbox-output {
+  border-top: 1px solid #4ab;
+  background: #1e1e1e;
+  color: #e0e0e0;
+}
+
+body.dark-mode .sandbox-output-error { color: #ff6b6b; }
+body.dark-mode .sandbox-output-warn { color: #ffb347; }
+body.dark-mode .sandbox-output-etc { background: #2e4; color: #000; }
+
+body.dark-mode .cm-editor .cm-gutters {
+  background: #1e1e1e;
+  color: #4ab;
+}
+
+body.dark-mode blockquote p {
+  color: #aaa;
+}
+
+body.dark-mode .sandboxhint {
+  background: #555;
+  color: #eee;
+}
+
+body.dark-mode .sandboxhint:before {
+  border-right-color: #555;
+}
+
+body.dark-mode .editor-wrap iframe {
+  border-color: #4ab;
+}
+
+body.dark-mode .tok-keyword,
+body.dark-mode .sandbox-output-fun { color: #9e86ff; }
+
+body.dark-mode .tok-atom,
+body.dark-mode .sandbox-output-bool { color: #6bc1ff; }
+
+body.dark-mode .tok-number,
+body.dark-mode .sandbox-output-number { color: #e6db74; }
+
+body.dark-mode .tok-definition { color: #66d9ef; }
+
+body.dark-mode .tok-variableName2 { color: #a6e22e; }
+
+body.dark-mode .tok-typeName { color: #f92672; }
+
+body.dark-mode .tok-comment { color: #b58490; }
+
+body.dark-mode .tok-string,
+body.dark-mode .sandbox-output-string { color: #e6db74; }
+
+body.dark-mode .tok-invalid { color: #f00; }
+
+body.dark-mode .tok-meta { color: #888; }
+
+body.dark-mode figure.square-framed img,
+body.dark-mode figure.framed img {
+  border-color: #aaa;
 }
